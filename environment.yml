@@ -1,0 +1,11 @@
+name: simpeg-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8.*
+  - pip
+  - ipython
+  - jupyterlab
+  # SimPEG
+  - simpeg
+  - discretize
